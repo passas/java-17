@@ -1,20 +1,20 @@
 Whole Number:
 ```java
-byte     // [Byte.MIN_VALUE, Byte.MAX_VALUE]
-short    // [Short.MIN_VALUE, Short.MAX_VALUE]  
-int      // [Integer.MIN_VALUE, Integer.MAX_VALUE]
-long     // [Long.MIN_VALUE, Long.MAX_VALUE]
+byte     // [Byte.MIN_VALUE, Byte.MAX_VALUE]                         Byte.SIZE
+short    // [Short.MIN_VALUE, Short.MAX_VALUE]                       Short.SIZE
+int      // [Integer.MIN_VALUE, Integer.MAX_VALUE]                   Integer.SIZE
+long     // [Long.MIN_VALUE, Long.MAX_VALUE]                         Long.SIZE       
 ```
 
 Real Number:
 ```java
-float    // [Float.MIN_VALUE, Float.MAX_VALUE]
-double   // [Double.MIN_VALUE, Double.MAX_VALUE]
+float    // [Float.MIN_VALUE, Float.MAX_VALUE]                        Float.SIZE
+double   // [Double.MIN_VALUE, Double.MAX_VALUE]                      Double.SIZE
 ```
 
 Single Character:
 ```java
-char     // [(int) Character.MIN_VALUE, (int) Character.MAX_VALUE]
+char     // [(int) Character.MIN_VALUE, (int) Character.MAX_VALUE]    Character.SIZE
 ```
 
 Boolean Value:
