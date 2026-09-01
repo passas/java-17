@@ -25,20 +25,20 @@ Double:
 ```java
 double im_a_double = 10;
 
-double im_a_double = 10D;
+double im_a_double = 10d;
 
-Double imDefinitelyADouble = 10D;
+Double imDefinitelyADouble = 10d;
 
-double see_me_better = 10_000D;
+double see_me_better = 10_000d;
 ```
 
 Float:
 ```java
 float im_a_double = 10;
 
-float notADouble = 10F;
+float notADouble = 10f;
 
-Float definitleNotADouble = 10F;
+Float definitleNotADouble = 10f;
 
-float see_me_better = 10_000F;
+float see_me_better = 10_000f;
 ```
