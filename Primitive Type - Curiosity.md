@@ -12,7 +12,7 @@ Long definitelyNotAnInteger = 10L;
 long seeMeBetter = 100_000L;
 ```
 
-Double / FLoat:
+Double / Float:
 ```java
 double whatAmI = 1E-1;    // 0.1
 
