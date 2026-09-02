@@ -12,3 +12,19 @@ do
   statements;
 } while(condition);
 ```
+
+Break:
+```Java
+while(condition)
+{
+  if (condition) break;
+}
+```
+
+Continue:
+```Java
+while(condition)
+{
+  if (condition) continue;
+}
+``
