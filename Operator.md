@@ -5,7 +5,7 @@
 -      // Subtraction
 *      // Multiplication
 /      // Division
-%      // Mod
+%      // Modulo
 ```
 
 ```Java
