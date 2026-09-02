@@ -1,7 +1,7 @@
 · Operator manipulate operands
 
 ```Java
-+      // Addiction ; Concatenation
++      // Addiction ; String Concatenation
 -      // Subtraction
 *      // Multiplication
 /      // Division
