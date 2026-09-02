@@ -1,6 +1,6 @@
 · Operator manipulate operands
 
-Math operators:
+Mathematical:
 ```Java
 +      // Addiction ; String Concatenation
 -      // Subtraction
@@ -18,7 +18,7 @@ one++;        // 2
 one += one    // 2
 ```
 
-Logical operators:
+Logical:
 ```Java
 ==        // Equality
 !=        // Inequality
