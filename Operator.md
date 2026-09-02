@@ -1,4 +1,4 @@
-· Operator manipulate operands
+*Operator manipulate operands*
 
 Mathematical:
 ```Java
