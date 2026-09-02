@@ -1,4 +1,6 @@
-*Operators manipulate operands* (Oracle)[https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html]
+*Operators manipulate operands*
+
+[Oracle](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
 
 
 Mathematical:
