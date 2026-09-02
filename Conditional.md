@@ -35,4 +35,12 @@ switch(expression)
     break;
 }
 
+switch(expression)
+{
+  case match -> statement;
+  case match, match: -> {
+    statements;
+  }
+  default -> statement;
+}
 ```
