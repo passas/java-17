@@ -31,3 +31,9 @@ Logical:
 ||        // Logical OR
 !         // Negation
 ```
+
+Conditional (ternary):
+```Java
+String name = null;
+String hello = (name == null) ? "Hello, world" : "Hello, " + name;  
+```
