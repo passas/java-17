@@ -49,6 +49,7 @@ return switch(expression)
   case match -> statement;
   case match, match: -> {
     statements;
+    yield ...;
   }
   default -> statement;
 }
