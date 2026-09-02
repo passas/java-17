@@ -28,7 +28,7 @@ switch(expression)
   case match:
     statements;
     break;
-  case match:
+  case match:      // follow through
   case match:
     statements;
   default:
