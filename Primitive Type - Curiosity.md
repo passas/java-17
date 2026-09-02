@@ -45,9 +45,9 @@ float see_me_better = 10_000f;
 
 Character:
 ```java
-char c = 'D';
+char c = 'D';          // literal
 
-char c = '\u0044';
+char c = '\u0044';     // unicode
 
-char c = 68;
+char c = 68;           // integer
 ```
