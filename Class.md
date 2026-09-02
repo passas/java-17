@@ -3,7 +3,7 @@ A data type
 ```Java
 public class MyClass
 {
-  Integer i;
+  private Integer i;
 
   public MyClass()
   {
