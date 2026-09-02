@@ -51,3 +51,12 @@ char c = '\u0044';     // unicode
 
 char c = 68;           // integer
 ```
+
+Boolean
+```java
+boolean _true = true;
+
+boolean _false = false;
+
+Boolean t = Boolean.TRUE;
+```
