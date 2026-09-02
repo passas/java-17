@@ -22,4 +22,5 @@ switch(expression)
   default:
     int j = 1;
 }
+System.out.println(i);  // error
 ```
