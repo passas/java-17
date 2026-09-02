@@ -43,4 +43,13 @@ switch(expression)
   }
   default -> statement;
 }
+
+return switch(expression)
+{
+  case match -> statement;
+  case match, match: -> {
+    statements;
+  }
+  default -> statement;
+}
 ```
