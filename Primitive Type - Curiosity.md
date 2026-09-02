@@ -42,3 +42,12 @@ Float definitleNotADouble = 10f;
 
 float see_me_better = 10_000f;
 ```
+
+Character:
+```java
+char c = 'D';
+
+char c = '\u0044';
+
+char c = 68;
+```
