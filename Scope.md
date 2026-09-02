@@ -7,4 +7,19 @@ int i = 0;
 }
 System.out.println(i);
 System.out.println(j); // error
-``
+```
+
+Derp:
+```Java
+switch(expression)
+{
+  case match:
+    int i = 0;
+    break;
+  case match:
+    System.out.println(i);
+    System.out.println(j);  // error
+  default:
+    int j = 1;
+}
+```
