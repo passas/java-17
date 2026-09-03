@@ -21,5 +21,5 @@ Boolean Value:
 ```java
 boolean  // [Boolean.FALSE, Boolean.TRUE]                                               default=false
 ```
-
+---
 *non null*
