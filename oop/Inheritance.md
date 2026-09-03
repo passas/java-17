@@ -18,3 +18,7 @@ public class Dog extends Animal
   }
 }
 ```
+
+---
+
+`extends` has cardinality of 1
