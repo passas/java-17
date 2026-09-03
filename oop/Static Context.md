@@ -1,5 +1,5 @@
 Static only sees static.
 
-Static is one cardinality.
+Static is cardinality one.
 
 Instance sees static.
