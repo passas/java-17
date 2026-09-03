@@ -1,5 +1,7 @@
 \>= JDK-14
 
+Immutable;
+
 private final fields;
 
 public getters; ( student.name(); )
