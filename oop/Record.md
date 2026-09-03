@@ -2,7 +2,7 @@
 
 private final fields;
 
-public getters;
+public getters; ( student.name(); )
 
 public formatted toString.
 
