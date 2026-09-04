@@ -10,3 +10,13 @@ void iterate(List<Object> list)
   }
 }
 ```
+
+
+```Java
+void empty(List<Object> list)
+{
+  var iterator = list.iterator();
+  while(iterator.hasNext())
+    iterator.remove();
+}
+```
