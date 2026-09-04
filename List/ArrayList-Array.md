@@ -9,7 +9,7 @@ Object[] array = arrayList.toArray(new Object[arrayList.size()]);
 Mutable
 ```Java
 Object[] array = {new Object(), new Object()};
-    ArrayList<Object> arrayList = Arrays.stream(array).collect(Collectors.toCollection(ArrayList::new));
+ArrayList<Object> arrayList = Arrays.stream(array).collect(Collectors.toCollection(ArrayList::new));
 
 int[] array = {1, 2};
 ArrayList<Integer> arrayList = Arrays.stream(array).boxed().collect(Collectors.toCollection(ArrayList::new));
