@@ -23,3 +23,13 @@ for(var outter : matrix)
   for (var elem : outter)
     elem;
 ``
+
+---
+
+```Java
+int[] arr = new int[2];
+int[][] arr = new int[2][2];
+int[][][] arr = new int[2][2][2];
+
+Array.deppToString(arr);
+```
