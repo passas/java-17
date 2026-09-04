@@ -21,11 +21,3 @@ arrayList.forEach();
 
 arrayList.stream();
 ```
-
----
-
-```Java
-Object[] array = {new Object(), new Object};
-
-ArrayList<Object> arrayList = new ArrayList<>(List.of(array));
-```
