@@ -3,7 +3,7 @@ https://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html
 ```Java
 String.format(...);
 ```
-
+jdk-17
 ```Java
 private final static JSON_FORMAT = """
   "properties": {%s}
