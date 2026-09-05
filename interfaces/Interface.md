@@ -6,6 +6,14 @@ public interface MyInterface implements OtherInterface, AnOtherInterface
 
   public abstract void f();
   void m();
+
+  // jdk-8              -- in order to not break already implemented classes
+  default Object n()
+  { return null; }
+
+  // jdk-9
+  private int i = -1;
+  
 }
 ```
 
@@ -25,5 +33,10 @@ public class MyClass implements MyInterface
   @Override
   public void m()
   { statements }
+
+  @Override
+  public void n()
+  { return new Object() }
+
 }
 ```
