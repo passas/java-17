@@ -11,4 +11,6 @@ public class StudentGPAComparator implements Comparator<Student>
 
 ```Java
 Arrays.sort(studentArray, new StudentGPAComparator()); 
+Arrays.sort(studentArray, new StudentGPAComparator()).reversed(); 
+
 ```
