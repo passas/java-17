@@ -1,5 +1,7 @@
 https://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html
 
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+
 ```Java
 String.format(...);
 ```
