@@ -55,5 +55,9 @@ public class MyOtherClass extends MyClass
   @Override
   void m()
   { statements }
+
+  @Override
+  public void p()
+  { statements }
 }
 ```
