@@ -42,6 +42,7 @@ public class MyOtherClass extends MyClass
   {
     super();
     this.w = 0;
+    this.i = 1;
   }
 
   @Override
