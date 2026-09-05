@@ -9,16 +9,16 @@ private final static JSON_FORMAT = """
   "properties": {%s}
 """;
 
-...
-
 public String toMap()
 {
   return """
-         "p1": "{%s}", "p2": {%d}
-          """.formatted(this.getP1(), this.getP2());
+"p1": "{%s}", "p2": {%d}
+""".formatted(this.getP1(), this.getP2());
 }
 
-...
+public static String toMap()
+{
+  return JSON_FORMAT.formatted(this.toMap());
+}
 
-JSON_FORMAT.formatted(this.toMap());
-``
+```
