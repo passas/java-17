@@ -12,12 +12,24 @@ public abstract class MyClass extends OtherClass
     this.i = 0;
     this.j = 0;
   }
-
+  
   public abstract void f();
 
   protected abstract void h();
 
   abstract void m();
+
+  public final void n()
+  {
+    statements
+    this.m();
+  }
+
+  public void p()
+  {
+    this.n();
+  }
+
 }
 ```
 
