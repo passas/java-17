@@ -1,6 +1,9 @@
 ```Java
 public interface MyInterface implements OtherInterface, AnOtherInterface
 {
+  public static final int I = 1;
+  int J = 1;
+
   public abstract void f();
   void m();
 }
