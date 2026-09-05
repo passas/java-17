@@ -6,6 +6,8 @@ K := key
 
 V := values
 
+---
+
 Enforce type check at compile time:
 ```Java
 public class Team<T>
@@ -21,5 +23,13 @@ public class Team<T>
   {
     this.players.add(t);
   }
+}
+```
+
+---
+
+```Java
+public class Team<T extends Player>    // Has to be a Player or a sub-class of it
+{
 }
 ```
