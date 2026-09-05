@@ -11,3 +11,12 @@ public class Team<T extends Player>    // Has to be a Player or a sub-class of i
   }
 }
 ```
+
+
+```Java
+public class Team<T extends Player, S>   
+{
+  private S affiliation;
+  private List<T> players;
+}
+```
