@@ -1,5 +1,5 @@
 ```Java
-public class Team<T extends Player & FootballPlayer>    // Has to be a Player or a sub-class of it, as also a FootballPlayer
+public class Team<T extends Player & FootballPlayer>    // Has to be a Player or a sub-class of it, as also a FootballPlayer (interface)
                                                         // leading to call methods other than the Object class
 {
 
