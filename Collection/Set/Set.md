@@ -14,6 +14,7 @@ Set<Object> minus = new HashSet<>(setA);
 minus.removeAll(setB);
 ```
 
+Outter:
 ```Java
 Set<Object> outter = new HashSet<>(minus);
 outter.removeAll(setA);
