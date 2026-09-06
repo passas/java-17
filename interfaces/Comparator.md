@@ -14,3 +14,7 @@ Arrays.sort(studentArray, new StudentGPAComparator());
 Arrays.sort(studentArray, new StudentGPAComparator()).reversed(); 
 
 ```
+
+```Java
+.sort(Comparator.comparing(Person::lastName).thenComparing(Person::firstName).reversed());
+```
