@@ -1,3 +1,7 @@
+No guarantee order
+
+int hashCode
+
 ```Java
 Set<Object> union = new HashSet<>(setA);
 union.addAll(setB);
