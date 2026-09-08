@@ -13,3 +13,15 @@ var filter_2nd = map.filter() // error
 ```Java
 .boxed().map() <=> .mapToObj()
 ```
+
+```Java
+.toList()
+
+.toArray(MyObject::new)
+
+.collect(Collectors.toList());
+
+.collect(Collectors.toCollection(ArrayList::new));
+
+.collect(Collectors.groupingBy(MyClass::getField));
+```
