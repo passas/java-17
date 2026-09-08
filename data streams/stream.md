@@ -24,4 +24,7 @@ var filter_2nd = map.filter() // error
 .collect(Collectors.toCollection(ArrayList::new));
 
 .collect(Collectors.groupingBy(MyClass::getField));
+
+.collect(TreeSet::new, TreeSet::add, TreeSet::addAll);
+.collect(() -> new TreeSet<>(Comparator.comparing(Student::getStudentId)), TreeSet::add, TreeSet::addAll);
 ```
