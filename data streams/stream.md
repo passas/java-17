@@ -9,3 +9,7 @@ var filter = map.filter()
 
 var filter_2nd = map.filter() // error
 ```
+
+```Java
+.boxed().map() <=> .mapToObj()
+```
