@@ -33,3 +33,7 @@ MyClass readObject (Path dataFile)
 ```
 
 .dat
+
+```Java
+private static final long serialVersionUID = 1L;
+```
