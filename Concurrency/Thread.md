@@ -1,6 +1,8 @@
 ```Java
 var currentThread = Thread.currentThread();
+
 currentThread.setPriority(Thread.MAX_PRIORITY); // 1 < 10
+
 void threadState(Thread thread)
 {
   thread.getId();
@@ -11,3 +13,4 @@ void threadState(Thread thread)
   thread.isAlive();
 }
 ```
+
