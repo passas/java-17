@@ -15,3 +15,7 @@ catch (IOException e)
   
 }
 ```
+
+```Java
+Files.write(path, student.getEngagementRecords(), StandardOpenOption.APPEND);
+```
