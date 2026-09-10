@@ -13,8 +13,35 @@ void writeData (File dataFile)
     String myString = "Hello, world";
 
     long position = 0;
+
     dataOutputStream.writeInt(myInt);
     dataOutputStream.size() - position;  // occupies
+    position = dataOutputStream.size();
+
+    dataOutputStream.writeLong(myLong);
+    dataOutputStream.size() - position;  // occupies
+    position = dataOutputStream.size();
+
+    dataOutputStream.writeBoolean(myBoolean);
+    dataOutputStream.size() - position;  // occupies
+    position = dataOutputStream.size();
+
+    dataOutputStream.writeChar(myChar);
+    dataOutputStream.size() - position;  // occupies
+    position = dataOutputStream.size();
+
+    dataOutputStream.writeFloat(myFloat);
+    dataOutputStream.size() - position;  // occupies
+    position = dataOutputStream.size();
+
+    dataOutputStream.writeDouble(myDouble);
+    dataOutputStream.size() - position;  // occupies
+    position = dataOutputStream.size();
+
+    dataOutputStream.writeUTF(myString);
+    dataOutputStream.size() - position;  // occupies
+    position = dataOutputStream.size();
+    
   }
   catch (FileNotFoundException e)
   {}
