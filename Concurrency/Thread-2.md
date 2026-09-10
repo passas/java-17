@@ -7,3 +7,5 @@ synchronized on method signature
 synchronized(this) // on method block
 {
 }
+
+synchronized(this.item)
