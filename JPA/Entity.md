@@ -4,6 +4,7 @@
 public class Artist
 {
   @Id
+  @GeneratedValue(strategy = GeneratedValue.IDENTITY)
   @Column(name="artist_id")
   private int artistId;
 
