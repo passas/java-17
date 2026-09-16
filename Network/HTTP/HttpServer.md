@@ -5,6 +5,8 @@ try
 
   server.createContext("/", exchange -> {
     String requestMethod = exchange.getRequestMethod();
+    String data = new String(exhange.getRequestBody().readAllBytes());
+
     String response = """
       <html>
         <body>
